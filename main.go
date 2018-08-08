@@ -7,6 +7,20 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// Book Struct (Model)
+type Book struct {
+	ID     string  `json:"id"`
+	Isbn   string  `json:"isbn"`
+	Title  string  `json:"title"`
+	Author *Author `json:"author"`
+}
+
+// Author Struct
+type Author Struct {
+	FirstName 	string 	`json:"firstname`
+	LastName 	string 	`json:"lastname`
+}
+
 func main() {
 	// Init Router
 	r := mux.NewRouter()
