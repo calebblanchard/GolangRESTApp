@@ -11,4 +11,4 @@ Build the app:
   
 Run the executable:
 
-  <code>./GolangRestApp</code>
+  <code>./GolangRESTApp</code>
